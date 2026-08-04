@@ -94,3 +94,20 @@
 .demo-btn:hover {
     opacity: 0.9;
 }
+.more-projects {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.view-more-btn {
+    color: #4f7302;
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.view-more-btn:hover {
+    color: #6b9904;
+    letter-spacing: 1px;
+}
