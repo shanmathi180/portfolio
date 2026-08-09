@@ -25,20 +25,25 @@ a {
 }
 @media (max-width: 768px) {
   nav {
-    gap: 20px;
-    padding: 0 20px;
+    gap: 10px;
+    padding: 0 12px;
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
   }
 
+  nav h1 {
+    font-size: 1.5rem;
+    white-space: nowrap;
+  }
+
   ul {
-    gap: 10px;
+    gap: 8px;
     padding: 0;
     margin: 0;
   }
 
   nav a {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
