@@ -35,3 +35,23 @@
     color: rgb(79, 115, 2);
 
 }
+@media (max-width: 768px) {
+  #about {
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    padding: 0 25px;
+    text-align: center;
+  }
+
+  .about-icons {
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-icons a {
+    font-size: 1.7rem;
+  }
+}
