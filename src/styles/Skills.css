@@ -42,3 +42,30 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+@media (max-width: 768px) {
+  #skills {
+    padding: 60px 20px;
+  }
+
+  #skills h2 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .skill-card {
+    padding: 25px 15px;
+  }
+
+  .skill-card h3 {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
