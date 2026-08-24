@@ -1,16 +1,94 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive personal portfolio website showcasing my **skills, projects, experience, and contact information** as a final-year engineering student interested in software development and technology.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Portfolio:** https://portfolio-shanmathi180s-projects.vercel.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Responsive design for desktop and mobile
+* Hero section with personal introduction
+* About Me section
+* Skills and technologies showcase
+* Projects section
+* Contact section
+* Clean and modern UI
+* Deployed using Vercel
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* **React.js** – Frontend development
+* **JavaScript** – Functionality and interactions
+* **HTML5** – Structure and content
+* **CSS3** – Styling and responsive design
+* **Vercel** – Deployment
+
+## 📂 Project Structure
+
+```text
+portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+## 💻 Getting Started
+
+Clone the repository:
+
+```bash
+git clone <your-github-repository-url>
+```
+
+Navigate to the project:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available on the local development server.
+
+## 📸 Portfolio Highlights
+
+The portfolio presents:
+
+* 👩‍💻 About Me
+* ⚙️ Technical Skills
+* 🚀 Projects
+* 📬 Contact Information
+* 📱 Responsive Design
+
+## 🌍 Deployment
+
+The portfolio is deployed on **Vercel** and can be accessed here:
+
+**Live Website:**
+https://portfolio-shanmathi180s-projects.vercel.app/
+
+## 👩‍💻 Author
+
+**Shanmathi G**
+
+Final-year Engineering Student | Full-Stack Developer | Software & Technology Enthusiast
+
+---
+react reactjs javascript html5 css3 vite vercel portfolio personal-portfolio frontend web-development responsive-design
