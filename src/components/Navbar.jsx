@@ -1,7 +1,7 @@
 import "../styles/Navbar.css";
 function Navbar() {
     return (
-        <nav class:na>
+        <nav className:na>
             <h2>Shanmathi G</h2>
 
             <ul>
