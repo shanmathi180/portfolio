@@ -10,7 +10,7 @@ function Projects() {
             tech: ["React", "JavaScript", "CSS", "Responsive Design"],
             live: "https://sweets-bakery-catalog-website.vercel.app/",
             image: "/bakery.png"
-        }
+        },
         {
             id: 2,
             title: "AI Food Ordering App",
