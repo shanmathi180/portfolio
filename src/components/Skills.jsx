@@ -9,7 +9,6 @@ function Skills() {
         "Node.js",
         "Express.js",
         "MongoDB",
-        "Django",
         "MySQL",
         "LABVIEW",
         "Process control",
