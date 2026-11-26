@@ -5,6 +5,14 @@ function Projects() {
     const projects = [
         {
             id: 1,
+            title: "Sweets & Bakery Website Catalog",
+            description: "A responsive bakery website designed as a sample project for showcasing freelance web development services.",
+            tech: ["React", "JavaScript", "CSS", "Responsive Design"],
+            live: "https://sweets-bakery-catalog-website.vercel.app/",
+            image: "/bakery.png"
+        }
+        {
+            id: 2,
             title: "AI Food Ordering App",
             description: "A MERN-based food ordering platform with AI-powered review analysis.",
             tech: ["React", "Node.js", "Express", "MongoDB"],
@@ -12,21 +20,14 @@ function Projects() {
             image: "/food.png"
         },
         {
-            id: 2,
+            id: 3,
             title: "Digital Twin Level Control",
             description: "Industrial digital twin for monitoring and controlling liquid level.",
             tech: ["ESP32", "Process Control", "Sensors and Transducers", "React", "Node.js"],
             github: "https://github.com/shanmathi180/Digital-Twin-Level-Control",
             image: "/DT.png"
         },
-        {
-            id: 3,
-            title: "Sweets & Bakery Website Catalog",
-            description: "A responsive bakery website designed as a sample project for showcasing freelance web development services.",
-            tech: ["React", "JavaScript", "CSS", "Responsive Design"],
-            live: "https://sweets-bakery-catalog-website.vercel.app/",
-            image: "/bakery.png"
-        }
+
     ];
 
     return (
