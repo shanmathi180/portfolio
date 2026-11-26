@@ -1,4 +1,6 @@
+
 import "../styles/Projects.css";
+
 function Projects() {
     const projects = [
         {
@@ -7,7 +9,6 @@ function Projects() {
             description: "A MERN-based food ordering platform with AI-powered review analysis.",
             tech: ["React", "Node.js", "Express", "MongoDB"],
             github: "https://github.com/shanmathi180/Full-Stack-Food-Ordering-App",
-
             image: "/food.png"
         },
         {
@@ -16,10 +17,18 @@ function Projects() {
             description: "Industrial digital twin for monitoring and controlling liquid level.",
             tech: ["ESP32", "Process Control", "Sensors and Transducers", "React", "Node.js"],
             github: "https://github.com/shanmathi180/Digital-Twin-Level-Control",
-
             image: "/DT.png"
+        },
+        {
+            id: 3,
+            title: "Sweets & Bakery Website Catalog",
+            description: "A responsive bakery website designed as a sample project for showcasing freelance web development services.",
+            tech: ["React", "JavaScript", "CSS", "Responsive Design"],
+            live: "https://sweets-bakery-catalog-website.vercel.app/",
+            image: "/bakery.png"
         }
     ];
+
     return (
         <section id="projects">
             <h2>Projects</h2>
@@ -41,17 +50,33 @@ function Projects() {
                             </div>
 
                             <div className="project-buttons">
-                                <a target="_blank"
-                                    rel="noopener noreferrer" href={project.github} className="github-btn">
-                                    GitHub
-                                </a>
+                                {project.github && (
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href={project.github}
+                                        className="github-btn"
+                                    >
+                                        GitHub
+                                    </a>
+                                )}
 
-
+                                {project.live && (
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href={project.live}
+                                        className="github-btn"
+                                    >
+                                        Live Demo
+                                    </a>
+                                )}
                             </div>
                         </div>
                     </div>
                 ))}
             </div>
+
             <div className="more-projects">
                 <a
                     href="https://github.com/shanmathi180?tab=repositories"
